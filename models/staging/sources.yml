@@ -5,7 +5,7 @@ sources:
     description: Dados brutos extraídos do modelo OLTP.
     schema: humanresources
     tables:
-      - name: "department"
+      - name: department
         description: "Description"
 
       - name: "employee"
@@ -21,4 +21,26 @@ sources:
         description: "Description"
 
       - name: "shift"
+        description: "Description"
+
+  - name: raw_person
+    description: Dados brutos extraídos do modelo OLTP.
+    schema: person
+    tables:
+      - name: emailaddress
+        description: "Description"
+
+      - name: password
+        description: "Description"
+
+      - name: person
+        description: "Description"
+
+      - name: personphone
+        description: "Description"
+
+      - name: phonenumbertype
+        description: "Description"
+
+      - name: stateprovince
         description: "Description"
