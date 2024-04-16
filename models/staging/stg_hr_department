@@ -1,0 +1,7 @@
+with
+    source_data as (
+        select *
+        from {{ source('raw_human_resources', 'dpt') }}
+    )
+select *
+from source_data
