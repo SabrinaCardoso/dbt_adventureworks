@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: raw_human_resources
+    description: Dados brutos extraídos do modelo OLTP.
+    schema: raw_adventure_works
+    tables:
+      - name: hr_department
+        description: "Description"
+
+      - name: "hr_employee"
+        description: "Description"
+
+      - name: "hr_employeedepartmenthistory"
+        description: "Description"
+
+      - name: "hr_employeepayhistory"
+        description: "Description"
+
+      - name: "hr_jobcandidate"
+        description: "Description"
+
+      - name: "hr_shift"
+        description: "Description"
+
+  - name: raw_person
+    description: Dados brutos extraídos do modelo OLTP.
+    schema: person
+    tables:
+      - name: emailaddress
+        description: "Description"
+
+      - name: password
+        description: "Description"
+
+      - name: person
+        description: "Description"
+
+      - name: personphone
+        description: "Description"
+
+      - name: phonenumbertype
+        description: "Description"
+
+      - name: stateprovince
+        description: "Description"
