@@ -16,7 +16,7 @@ with
             , rowguid as employee_row_guid
             , organizationnode as employee_organization_node
             , modifieddate as modification_date
-        from {{ source('raw_human_resources', 'employee') }}
+        from {{ source('raw_human_resources', 'hr_employee') }}
     )
 select *
 from employee

@@ -6,7 +6,7 @@ with
             , starttime as shift_start_time
             , endtime as shift_end_time
             , modifieddate as date_modified
-        from {{ source('raw_human_resources', 'shift') }}
+        from {{ source('raw_human_resources', 'hr_shift') }}
     )
 select *
 from shift

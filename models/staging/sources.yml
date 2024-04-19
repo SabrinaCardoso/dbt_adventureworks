@@ -3,24 +3,24 @@ version: 2
 sources:
   - name: raw_human_resources
     description: Dados brutos extraídos do modelo OLTP.
-    schema: humanresources
+    schema: raw_adventure_works
     tables:
-      - name: department
+      - name: hr_department
         description: "Description"
 
-      - name: "employee"
+      - name: "hr_employee"
         description: "Description"
 
-      - name: "employeedepartmenthistory"
+      - name: "hr_employeedepartmenthistory"
         description: "Description"
 
-      - name: "employeepayhistory"
+      - name: "hr_employeepayhistory"
         description: "Description"
 
-      - name: "jobcandidate"
+      - name: "hr_jobcandidate"
         description: "Description"
 
-      - name: "shift"
+      - name: "hr_shift"
         description: "Description"
 
   - name: raw_person
